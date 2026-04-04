@@ -59,7 +59,7 @@ export default function Home() {
 
         <div>
           <h1 className="font-display text-4xl md:text-5xl font-bold text-white leading-tight">
-            Hi, I'm <span className="text-accent">Your Name</span>
+            Hi, I'm <span className="text-accent">Shiva Raj Madhagoni</span>
           </h1>
           <p className="text-xl text-gray-400 mt-2 font-light">
             <TypedText />
@@ -74,7 +74,7 @@ export default function Home() {
         {/* Social links */}
         <div className="flex items-center gap-3 pt-1">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/shivarajugoud"
             target="_blank"
             rel="noreferrer"
             className="btn-ghost flex items-center gap-2"
@@ -83,7 +83,7 @@ export default function Home() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/shivaraj-madhagoni-59061116b/"
             target="_blank"
             rel="noreferrer"
             className="btn-ghost flex items-center gap-2"
@@ -92,7 +92,7 @@ export default function Home() {
             LinkedIn
           </a>
           <a
-            href="mailto:you@email.com"
+            href="mailto:shivarajum127@email.com"
             className="btn-primary flex items-center gap-2"
           >
             <Mail className="w-4 h-4" />

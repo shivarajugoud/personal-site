@@ -2,35 +2,48 @@ import { Download, Briefcase, GraduationCap, Award } from 'lucide-react'
 
 const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Your Company',
-    period: 'Jan 2024 — Present',
+    role: 'Software Development Engineer',
+    company: 'Kotak Mahindra Bank',
+    period: 'Oct 2025 — Present',
     location: 'Hyderabad, India',
     bullets: [
-      'Built and shipped feature X that improved Y by Z%.',
-      'Led migration from legacy system to microservices architecture.',
-      'Mentored 2 junior engineers; introduced code review standards.',
+      'Built a full-stack Slot Management platform (React + backend) enabling business teams to independently create and configure slots for offers, notifications, banners, and features across Kotak mobile banking app and website — reducing slot creation time from ~2 days to 30 minutes, saving significant developer bandwidth.',
+      'Architected a rule-driven homepage offer platform enabling ranked multi-slot personalisation with real-time evaluation at sub-100 ms latency, serving millions of active users.',
+      'Onboarded 8+ service request workflows enabling customers to report issues directly through the app, satisfying both product experience goals and regulatory compliance requirements.',
+      'Leveraged Claude AI across the full dev lifecycle (code generation, debugging, system design, refactoring, docs), measurably accelerating delivery speed and code quality.',
     ],
-    stack: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
+    stack: ['React', 'Node.js', 'AWS', 'Java', 'TypeScript', 'Python'],
   },
   {
-    role: 'SDE Intern',
-    company: 'Another Company',
-    period: 'May 2023 — Aug 2023',
-    location: 'Remote',
+    role: 'Software Development Engineer',
+    company: 'Amazon Prime Video',
+    period: 'Feb 2025 — Oct 2025',
+    location: 'Bangalore, India',
     bullets: [
-      'Developed REST APIs serving 10k+ requests per day.',
-      'Reduced build time by 30% by optimising CI pipeline.',
+      'Designed a greenfield hot-cold storage architecture for a watch history service using TTL-enabled DynamoDB and compacted archival storage.',
+      'Eliminated write amplification in a high-throughput DynamoDB table by redesigning access patterns with a time-bucketed GSI using a 6-hour interval sort key.',
     ],
     stack: ['Python', 'FastAPI', 'Redis'],
   },
+  {
+    role: 'Software Development Engineer',
+    company: 'Amazon Prime Video',
+    period: 'Aug 2022 — Feb 2025',
+    location: 'Hyderabad, India',
+    bullets: [
+      'Migrated legacy order-tracking monolith (Perl/Mason) to cloud-native AWS microservices, enabling horizontal scalability, fault isolation, and independent deployments; reduced UI rendering latency by ~500 ms through query optimisation and layered caching.',
+      'Designed a fault-tolerant event-driven notification system for service status tracking where third-party integrations were unavailable — achieving 100% ratings elicitation, a 30% feedback uplift, and measurable reduction in IVR call costs ($0.02/min).',
+      'Implemented multilingual (English & French) post-service SMS and email notifications increasing customer reviews by 217%; built mid-shipment delivery alerts reducing \'Where is My Order\' contacts by 3.7%',
+    ],
+    stack: ['Python', 'FastAPI', 'Redis'],
+  }
 ]
 
 const education = [
   {
     degree: 'B.Tech Computer Science',
-    school: 'Your University',
-    period: '2020 — 2024',
+    school: 'CVR College of Engineering',
+    period: '2018 — 2022',
     gpa: '8.9 / 10',
     notes: 'Relevant coursework: DSA, OS, DBMS, Networks, ML',
   },

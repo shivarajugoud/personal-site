@@ -13,35 +13,41 @@ don't make things up. Keep answers short unless the user asks for detail.
 ━━━ IDENTITY ━━━
 Name:     Shivaraj
 Location: Hyderabad, India
-Email:    shivaraj@email.com
-GitHub:   github.com/shivaraj
-LinkedIn: linkedin.com/in/shivaraj
-LeetCode: leetcode.com/shivaraj
+Email:    shivarajum127@email.com
+GitHub:   github.com/shivarajugoud
+LinkedIn: linkedin.com/in/shivaraj-madhagoni-59061116b/
+LeetCode: leetcode.com/Shivaraj1234
 
 ━━━ WORK EXPERIENCE ━━━
-Software Engineer @ Your Company (Jan 2024 — Present, Hyderabad)
-  • Built feature X that improved Y by Z%
-  • Led migration from legacy system to microservices
-  • Mentored 2 junior engineers; introduced code review standards
-  Stack: React, Node.js, PostgreSQL, AWS
+Software Engineer @ Kotak Mahindra Bank (Oct 2025 — Present, Hyderabad)
+  ▪ Built a full-stack Slot Management platform (React + backend) enabling business teams to independently create and configure slots for offers, notifications, banners, and features across Kotak's mobile banking app and website — reducing slot creation time from ~2 days to 30 minutes, saving significant developer bandwidth.
+  ▪ Architected a rule-driven homepage offer platform enabling ranked multi-slot personalisation with real-time evaluation at sub-100 ms latency, serving millions of active users.
+  ▪ Onboarded 8+ service request workflows enabling customers to report issues directly through the app, satisfying both product experience goals and regulatory compliance requirements.
+  ▪ Leveraged Claude AI across the full dev lifecycle (code generation, debugging, system design, refactoring, docs), measurably accelerating delivery speed and code quality.
 
-SDE Intern @ Another Company (May 2023 — Aug 2023, Remote)
-  • Developed REST APIs serving 10k+ requests/day
-  • Reduced CI build time by 30%
-  Stack: Python, FastAPI, Redis
+Software Engineer @ Amazon Prime Video (Feb 2025 — Oct 2025, Bangalore)
+  ▪ Designed a greenfield hot-cold storage architecture for a watch history service using TTL-enabled DynamoDB and compacted archival storage — choosing regional over global tables, capping per-profile entries, and optimising sort keys to reduce infrastructure costs by $3K/month.
+  ▪ Eliminated write amplification in a high-throughput DynamoDB table by redesigning access patterns with a time-bucketed GSI using a 6-hour interval sort key — reducing WCUs per update and cutting write costs by 18%, saving $220K/year. Owned full delivery: implementation, shadow testing, performance benchmarking, and zero-downtime rollout.
+  ▪ Enabled multi-region replication across IAD, DUB, ZAZ, and PDX for high availability; reused existing Kinesis pipelines for cross-region aggregation, minimising new infrastructure overhead.
+
+Software Development Engineer @ Amazon (Aug 2022 - Feb 2025, Hyderabad)
+  ▪ Migrated legacy order-tracking monolith (Perl/Mason) to cloud-native AWS microservices, enabling horizontal scalability, fault isolation, and independent deployments; reduced UI rendering latency by ~500 ms through query optimisation and layered caching.
+  ▪ Designed a fault-tolerant event-driven notification system for service status tracking where third-party integrations were unavailable — achieving 100% ratings elicitation, a 30% feedback uplift, and measurable reduction in IVR call costs ($0.02/min).
+  ▪ Implemented multilingual (English & French) post-service SMS and email notifications increasing customer reviews by 217%; built mid-shipment delivery alerts reducing 'Where is My Order' contacts by 3.7%
 
 ━━━ EDUCATION ━━━
-B.Tech Computer Science — Your University (2020–2024)
+B.Tech Computer Science — CVR College of Engineering (2018–2022)
 GPA: 8.9/10
 Coursework: DSA, Operating Systems, DBMS, Networks, Machine Learning
 
 ━━━ SKILLS ━━━
-Languages:      Python, JavaScript, TypeScript, C++, SQL
-Frontend:       React, Vite, Tailwind CSS, Next.js
-Backend:        Node.js, FastAPI, Express, GraphQL
-Databases:      PostgreSQL, MySQL, Redis, MongoDB
-DevOps/Cloud:   Docker, GitHub Actions, AWS (EC2, S3), Vercel
-Tools:          Git, Postman, Figma, Linux
+Languages: Java, Python, JavaScript, TypeScript, SQL
+Cloud & Infra: AWS (DynamoDB, Kinesis, SNS, SQS, S3, Lambda, EC2, SageMaker), Azure DevOps, Docker, Kubernetes, Terraform, CDK, CloudFormation
+Backend: Microservices, Event-driven Architecture, REST APIs, GraphQL, Distributed Systems, Spring Boot, Dagger, Google Guice
+Frontend: React, Angular
+Data & Observ: DynamoDB, MySQL, Kinesis Streams, Kibana, data modelling, access pattern optimisation
+Practices: Low-latency design, cost optimisation, multi-region architecture, CI/CD, observability, agile delivery
+AI Tooling: Claude AI (code generation, debugging, system design, refactoring, documentation), LLM-assisted development
 
 ━━━ PROJECTS ━━━
 1. Project Alpha
